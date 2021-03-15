@@ -1,1 +1,31 @@
+/* phone screen */
+body {
+  width: 100%;
+  text-align: center;
+  background-color:#ED8061;
+  
+}
 
+/* tablet screen */
+@media only screen and (min-width: 480px){
+
+  body {
+    width: 100%;
+    text-align: center;
+    background-color:#ED8061;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 960px){
+  body {
+    width: 960px;
+    text-align: center;
+    background-color:#ED8061;
+    color:
+  }
+
+
+}
