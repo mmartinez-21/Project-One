@@ -1,12 +1,80 @@
 /* phone screen */
-body {
-  width: 100%;
+html {
+  font-size: 18px;
+  background-color: #ED8061;
+  padding: 0px;
   text-align: center;
-  background-color:#ED8061;
+  width: 480px;
+}
+
+html body {
+  font-size: 1em;
+  padding: 10px;
+}
+
+body h1 {
+  font-size: 2em;
+  padding:10px;
+  background-color: none;
+  border: none;
+  margin: 0px;
+}
+
+
+
+
+div#inputArea {
+  background-color: #F7AD65 ;
+  /*background-image: url('../IMG_7968.jpg');*/
+  height: 30em;
+  padding: 10px 0 10px 0;
+  margin: 10px;
+  border-radius: 5px;
   
 }
 
+ul li {
+  margin: 15px 0px 15px 0;
+  padding: 0px 12.5%;
+  width: 75%;
+}
+
+#submitDiv {
+  text-align: center;
+  
+}
+
+
+input#submit {
+  border-radius: 1px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  padding: 15px 20px;
+  box-shadow: 0px 0px 30px 5px black inset;
+}
+
+li label {
+  width: 75%;
+  display: inline-block;
+  text-align: center;
+  padding: 0 12.5%;
+}
+
+li input {
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+
 /* tablet screen */
+/*
 @media only screen and (min-width: 480px){
 
   body {
@@ -17,15 +85,29 @@ body {
 
 
 }
+*/
 
-
+/* laptop */
+/*
 @media only screen and (min-width: 960px){
+  
   body {
     width: 960px;
-    text-align: center;
+    text-align: left;
     background-color:#ED8061;
-    color:
+    
+  }
+  
+  h1 {
+    margin: 20px;
+    padding: 5em;
+    font-size:50px;
+  }
+  
+  #DoB {
+    
   }
 
 
 }
+*/
