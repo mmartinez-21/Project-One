@@ -7,11 +7,13 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
   <link rel="stylesheet" href="css/resets.css">
   <link rel="stylesheet" href="https://fontawesome.com/icons/space-shuttle?style=solid">
+  <script src="js/site.js"></script>
 </head>
 <body>
   <main>
-    <form method="get" action="#null">
+    <form method="get" action="#null" onsubmit="return incompSub()">
       <h1>Mars Year Round Trips</h1>
+      <h2> Sign up and join the initiative to colonize Mars</h2>
       <div id="inputArea">
         <ul>
           <li>
@@ -26,6 +28,10 @@
             <label for="DoB">Date of Birth</label>
             <input type="date" id="DoB" name="DoB">
           </li>
+          <li id="button">
+            <label for="cbInput">I did NOT read any Terms and Conditions, but agree anyway</label>
+            <input type="checkbox" id="cbInput" name="checkbox">
+          </li>
         </ul>
       </div>
       <div id="submitDiv">
@@ -33,6 +39,5 @@
       </div>
     </form>
   </main>
-  <script src="js/site.js"></script>
 </body>
 </html>

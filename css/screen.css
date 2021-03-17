@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* phone screen */
 html {
   font-size: 18px;
-  background-color: #ED8061;
+  background-color: #99512B;
   padding: 0px;
   text-align: center;
   width: 480px;
@@ -13,23 +14,35 @@ html body {
 }
 
 body h1 {
-  font-size: 2em;
+  font-size: 3.375em;
   padding:10px;
   background-color: none;
   border: none;
   margin: 0px;
+  color: black;
+  text-shadow: 1px 1px 1px #5B9996;
+  font-family: 'Poppins', sans-serif;
 }
 
-
+body h2 {
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  color: #FFA87A;
+}
 
 
 div#inputArea {
   /*background-color: #F7AD65 ;*/
-  background-image: url("../media/MarsTravel.jpg");
+  background: url("../media/MarsTravel.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  max-width: 898px;
   height: 30em;
   padding: 10px 0 10px 0;
   margin: 10px;
   border-radius: 5px;
+  border: 3px solid #ACE6E3;
+  
   
 }
 
@@ -48,12 +61,13 @@ ul li {
 input#submit {
   border-radius: 1px;
   color: white;
-  background-color: red;
+  background-color: #5B9996;
   border: none;
   border-radius: 8px;
   font-size: 1em;
   padding: 15px 20px;
   box-shadow: 0px 0px 30px 5px black inset;
+  font-family: 'Poppins', sans-serif;
 }
 
 li label {
@@ -61,6 +75,8 @@ li label {
   display: inline-block;
   text-align: center;
   padding: 0 12.5%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 li input {
@@ -72,15 +88,32 @@ li input {
   width: 100%;
 }
 
+#button label {
+  font-size: 0.8em;
+}
+
+input#cbInput {
+  text-align: center;
+  margin: 0 50%;
+  padding: 0 50%;
+}
+
 
 /* tablet screen */
-/*
+
 @media only screen and (min-width: 480px){
 
-  body {
+  html {
     width: 100%;
-    text-align: center;
-    background-color:#ED8061;
+    padding: 5%;
+  }
+  
+  body h1 {
+    font-size: 3.375em;
+  }
+
+  div#inputArea {
+    width: 90%;
   }
 
 
@@ -88,24 +121,39 @@ li input {
 */
 
 /* laptop */
-/*
-@media only screen and (min-width: 960px){
+
+@media only screen and (min-width: 898px){
   
-  body {
+  html {
     width: 960px;
-    text-align: left;
+    text-align: center;
     background-color:#ED8061;
+    padding: 0 50%;
+    margin: 0 300px;
     
   }
   
-  h1 {
+  html body {
+    width: 960px;
+    text-align: center;
+    margin: 0 10%;
+    padding: 0 30%;
+  }
+  
+  body h1 {
     margin: 20px;
     padding: 5em;
     font-size:50px;
+    font-size: 3.375em;
   }
   
-  #DoB {
-    
+  div#inputArea {
+    width: 898px;
+    text-align: center;
+  }
+  
+  ul li {
+    width: 200px;
   }
 
 
