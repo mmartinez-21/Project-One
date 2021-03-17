@@ -118,44 +118,69 @@ input#cbInput {
 
 
 }
-*/
+
 
 /* laptop */
 
 @media only screen and (min-width: 898px){
-  
+
   html {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div#inputArea {
+    width: 898px;
+  }
+  
+  input {
+    max-width: 300px;
+  }
+  /* html {
     width: 960px;
     text-align: center;
-    background-color:#ED8061;
-    padding: 0 50%;
-    margin: 0 300px;
+    background-color:#99512B;
+    /*padding: 0 50%;
+    margin: 0 30px;
+    margin: 0 auto;
     
   }
   
   html body {
     width: 960px;
     text-align: center;
-    margin: 0 10%;
-    padding: 0 30%;
+    
+    
   }
   
   body h1 {
-    margin: 20px;
-    padding: 5em;
+    margin: 0;
+    padding: 10px;
     font-size:50px;
     font-size: 3.375em;
+    text-align: center;
   }
   
   div#inputArea {
     width: 898px;
     text-align: center;
+    padding: 0 22.5% 0 22.5%;
+    margin: 7px auto;
+    display: inline-block;
   }
+   
   
   ul li {
-    width: 200px;
+    width: 300px;
+
+  }
+  
+  #submitDiv {
+    margin: 20px;
+    text-align: center;
   }
 
-
+*/
 }
 */
