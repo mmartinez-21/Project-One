@@ -115,6 +115,10 @@ input#cbInput {
   div#inputArea {
     width: 90%;
   }
+  
+  input {
+    max-width: 300px;
+  }
 
 
 }
